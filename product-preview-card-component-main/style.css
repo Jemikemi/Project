@@ -1,0 +1,131 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+:root{
+    --cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --darkBlue: hsl(212, 21%, 14%);
+    --grayishBlue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+    --Montserrat:  'Montserrat', sans-serif;
+    --Fraunces: 'Fraunces', serif;
+}
+p{
+    font-size: 14px;
+    font-family: var(--Montserrat);
+}
+
+h2{
+    font-family: var(--Fraunces);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--cream);
+}
+main{
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+  background-color: var(--cyan);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: var(--mono);
+  width: 100%;
+  border: none;
+}
+.button:hover {
+    color: white;
+    background-color: var(--darkBlue);
+  }
+.container{
+    width: 580px;
+    height: 420px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    background-color: var(--white);
+    margin: auto;
+    display: flex;
+    height: 420px;
+}
+.image{
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background: url(images/image-product-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.text{
+    padding: 1.5rem;
+    width: 50%;
+    
+}
+.price{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-family: var(--Fraunces);
+    color: var(--cyan);
+}
+.price p{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: var(--Fraunces);
+    
+}
+.price span{
+    margin-left: 10px;
+    font-size: 13px;
+}
+.small{
+    font-size: small;
+    color: var(--grayishBlue);
+}
+div .topic{
+    color: var(--grayishBlue);
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.bo{
+    color: var(--grayishBlue);
+    margin-bottom: 0;
+    line-height: 25px;
+}
+.button img{
+    margin: 0 10px -2px 0;
+}
+@media (max-width : 620px){
+    .box{
+        flex-direction: column;
+        width: 90%;
+        height:90%;
+
+    }
+    .image{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 0;
+    background: url(images/image-product-mobile.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+    .text{
+        width: 100%;
+        border-bottom-left-radius: 8px;
+        border-top-right-radius: 0;
+    }
+    
+}
