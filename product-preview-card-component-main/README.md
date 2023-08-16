@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://github.com/Jemikemi/Project/tree/main/product-preview-card-component-main)
+- Live Site URL: [live site URL here](https://jemikemi.github.io/Project/product-preview-card-component-main/)
 
 ## My process
 I built the desktop view first and used media query to do the mobile view.
@@ -61,7 +61,6 @@ i am still finding it hard to use flexbox. I hipe to get better as i do more fro
 
 
 ## Author
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@jemikemi](https://www.frontendmentor.io/profile/jemikemi)
 - Twitter - [@aladejemima](https://www.twitter.com/aladejemima)
 
