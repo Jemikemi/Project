@@ -15,8 +15,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -57,7 +55,7 @@ I learnt to use media queries
 
 ### Continued development
 
-i am still finding it hard to use flexbox. I hipe to get better as i do more frontend projects.
+i am still finding it hard to use flexbox. I hope to get better as i do more frontend projects.
 
 
 ## Author
