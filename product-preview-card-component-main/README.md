@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL here](https://github.com/Jemikemi/Project/tree/main/product-preview-card-component-main)
+- Solution URL: [solution URL here](https://github.com/Jemikemi/Project/tree/main/product-preview-card-component-main/index.html/)
 - Live Site URL: [live site URL here](https://jemikemi.github.io/Project/product-preview-card-component-main/)
 
 ## My process
